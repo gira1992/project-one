@@ -8,7 +8,7 @@
             const slider = document.querySelector('.slider');
             M.Slider.init(slider, {
                 indicators: false,
-                height: 400,
+                height: 600,
                 transition: 500,
                    
             })
