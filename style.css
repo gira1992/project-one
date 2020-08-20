@@ -10,9 +10,14 @@ html {
     border: #f4f4f4 3px solid !important;
 }
 
+
+
+/*
 .section-footer .fa-3x{
     margin: 5px 10px;
 }
+*/
+
 
     
 /*gallary */
@@ -87,6 +92,7 @@ html {
     letter-spacing: 3px;
     font-weight: 800;
     font-family: 'Poppins', sans-serif;
+    font-size: 2em;
     
 }
 .keyword:before{
@@ -115,8 +121,22 @@ html {
     }
 }
 
+.slides{
+    height: 100vh
+}
+
 .card-panel{
     height: 310px;
+}
+
+.card-title{
+     background:rgba(0, 0, 0,.4);
+    width: 100%; 
+    text-align: center;"
+}
+
+.card-content{
+    font-family: 'Montserrat', sans-serif;
 }
 
 .fa-twitter .fa-facebook .fa-instagram .fa-pinterest{
@@ -140,3 +160,23 @@ color: radial-gradient(circle, rgba(128,0,187,1) 0%, rgba(213,218,30,1) 23%);
 .fa-pinterest:hover{
     color: red;
 }
+
+.section-search {
+    position: relative;
+}
+
+.searchBar{
+    position: absolute
+}
+
+.section-search, .section-popular, .section-gallery {
+    padding-top: 2.5rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.section {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
